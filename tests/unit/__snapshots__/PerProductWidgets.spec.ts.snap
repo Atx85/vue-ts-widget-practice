@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerProductWidgets.vue should render 1`] = `
+<div class="per-product-widgets">
+  <h3 class="title font-primary-bold"></h3>
+  <div class="widgets"></div>
+</div>
+`;

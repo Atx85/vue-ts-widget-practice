@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Cabin-Bold';
+    src: url('./fonts/Cabin/Cabin-Bold.ttf');
+  }
+
+@font-face {
+    font-family: 'Cabin-Regular';
+    src: url('./fonts/Cabin/Cabin-Regular.ttf');
+}
+
+.font-primary-bold {
+    font-family: 'Cabin-Bold';
+}
+
+.font-primary-regular {
+    font-family: 'Cabin-Regular';
+}
