@@ -1,11 +1,10 @@
 # Vue/TS Widget - Practice
 
 <img width="420px" src="./preview.gif" />
-- v18.18.2   
-- Stories folder structure is based on Emulsify
-- Vue / Storybook setup is based on [this article from farcaller.](https://farcaller.medium.com/vue-storybook-typescript-starting-a-new-project-with-best-practices-in-mind-3fc7b3ceae4e)
-
-- views/HomeView.vue is used for demonstration purposes to prove that the component is usable in a Vue project
+ - v18.18.2       
+ - Stories folder structure is based on Emulsify    
+ - Vue / Storybook setup is based on [this article from farcaller.](https://farcaller.medium.com/vue-storybook-typescript-starting-a-new-project-with-best-practices-in-mind-3fc7b3ceae4e)    
+ - views/HomeView.vue is used for demonstration purposes to prove that the component is usable in a Vue project    
 
 
 ## Project setup
