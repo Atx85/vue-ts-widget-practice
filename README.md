@@ -1,6 +1,6 @@
 # Vue/TS Widget - Practice
 
-<img width="420px" src="./.github/preview.gif" />
+<img width="420px" src="./preview.gif" />
 
 - Stories folder structure is based on Emulsify
 - Vue / Storybook setup is based on [this article from farcaller.](https://farcaller.medium.com/vue-storybook-typescript-starting-a-new-project-with-best-practices-in-mind-3fc7b3ceae4e)
