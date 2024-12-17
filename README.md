@@ -46,7 +46,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Feedback
  - no http call - response is hard coded
+    - This was the first task on the pair programming which I failed, because on PerProductWidgets the data wasn't created in computed (I debugged this after)
  - responsiveness - when getting closer to mobile state the components columns don't behave as expected
+    - added css grid to satisfy criteria 
  - scaleability not the best - when adding more components there is some issue
  - acessibility - I forgot to ask for details on this
 
