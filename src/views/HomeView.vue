@@ -51,7 +51,6 @@ export default defineComponent({
   data() {
     return {
       title: "Per product widgets",
-      myWidgets: [],
     };
   },
 });
