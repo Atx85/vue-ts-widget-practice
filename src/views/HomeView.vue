@@ -16,7 +16,7 @@ body {
 }
 #app {
   width: 100%;
-  height: 100vh;
+  margin-top: 50px;
 }
 </style>
 <style scoped>
