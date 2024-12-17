@@ -5,7 +5,9 @@
  - Node: v18.18.2              
  - Stories folder structure is based on Emulsify    
  - Vue / Storybook setup is based on [this article from farcaller.](https://farcaller.medium.com/vue-storybook-typescript-starting-a-new-project-with-best-practices-in-mind-3fc7b3ceae4e)    
- - views/HomeView.vue is used for demonstration purposes to prove that the component is usable in a Vue project    
+ - views/HomeView.vue is used for demonstration purposes to prove that the component is usable in a Vue project
+ - I only wrote tests to test agains the conditions in the brief
+ - I have decided to use PlayWright for e2e as it works out of the box. 
 
 
 ## Project setup
