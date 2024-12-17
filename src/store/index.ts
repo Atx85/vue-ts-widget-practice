@@ -1,7 +1,9 @@
 import { ColorName } from "@/stories/00-base/01-colors/colorOptions";
 import { WidgetType } from "@/stories/03-organisms/00-per-product-widgets/WidgetType";
 import { createStore } from "vuex";
-
+import axios from "axios";
+const API_URL =
+  "https://b795b019-1f84-41f4-93a3-a702d686c75a.mock.pstmn.io/product-widgets-2";
 export interface State {
   widgets: Array<WidgetType>;
 }
@@ -49,36 +51,10 @@ export default createStore<State>({
     },
   },
   actions: {
-    fetchWidgets({ commit }) {
-      commit("setWidgets", [
-        {
-          id: 1,
-          type: "carbon",
-          amount: 2,
-          action: "offsets",
-          active: false,
-          linked: false,
-          selectedColor: "green",
-        },
-        {
-          id: 2,
-          type: "trees",
-          amount: 15,
-          action: "plants",
-          active: false,
-          linked: true,
-          selectedColor: "black",
-        },
-        {
-          id: 3,
-          type: "plastic",
-          amount: 300,
-          action: "collects",
-          active: true,
-          linked: true,
-          selectedColor: "beige",
-        },
-      ]);
+    async fetchWidgets({ commit }) {
+      // https://b795b019-1f84-41f4-93a3-a702d686c75a.mock.pstmn.io/product-widgets
+      const response = await axios.get(API_URL);
+      commit("setWidgets", response.data);
     },
     toggleActiveWidget({ commit }, payload: Record<number, boolean>) {
       commit("mutationToggleActiveWidgetId", payload);

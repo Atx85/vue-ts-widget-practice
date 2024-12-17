@@ -40,3 +40,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Feedback
+ - no http call - response is hard coded
+ - responsiveness - when getting closer to mobile state the components columns don't behave as expected
+ - scaleability not the best - when adding more components there is some issue
+ - acessibility - I forgot to ask for details on this
+

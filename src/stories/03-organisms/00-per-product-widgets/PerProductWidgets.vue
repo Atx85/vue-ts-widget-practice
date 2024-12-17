@@ -90,10 +90,14 @@ export default defineComponent({
     },
     title: String,
   },
+  computed: {
+    localWidgets(): Array<WidgetType> {
+      return this.widgets;
+    },
+  },
   data() {
     return {
       colors,
-      localWidgets: this.widgets,
       titleMap: {
         carbon: "kgs of carbon",
         "plastic bottles": " plastic bottles",

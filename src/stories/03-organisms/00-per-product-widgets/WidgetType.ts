@@ -3,11 +3,11 @@ import { ActionType } from "./ActionType";
 import { ColorName } from "@/stories/00-base/01-colors/colorOptions";
 
 export interface WidgetType {
-    id: number;
-    type: titleMapKey;
-    amount: number;
-    action: ActionType;
-    active: boolean;
-    linked: boolean;
-    selectedColor: ColorName;
-  }
+  id: number;
+  type: titleMapKey;
+  amount: number;
+  action: ActionType;
+  active: boolean;
+  linked: boolean;
+  selectedColor: ColorName;
+}
