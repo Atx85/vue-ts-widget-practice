@@ -50,5 +50,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
  - responsiveness - when getting closer to mobile state the components columns don't behave as expected
     - added css grid to satisfy criteria 
  - scaleability not the best - when adding more components there is some issue
- - acessibility - I forgot to ask for details on this
+ - accessibility - I forgot to ask for details on this
 
